@@ -12,9 +12,8 @@ We utilized the langchain library's PyPDF module to load PDF documents. The docu
 2. Chunking
 
 To prepare the documents for embedding, we performed chunking using a recursive character splitter:
-
-    Minimum Chunk Length: 100 characters
-    Chunk Overlap: 20 characters
+Minimum Chunk Length: 100 characters
+Chunk Overlap: 20 characters
 
 This ensures that the chunks are of manageable size while preserving contextual continuity between chunks.
 
